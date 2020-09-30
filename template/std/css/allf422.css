@@ -1,0 +1,72 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.min.css");
+/*@import url("../assets/jquery-ui/jquery-ui-1.11.1.custom.min.css");*/
+@import url("font-awesome.min.css");
+@import url("../assets/bootstrap-fileupload/bootstrap-fileupload.css");
+@import url("../assets/fancybox/jquery.fancybox.css");
+/*@import url("../assets/redactor/redactor.css");*/
+/*@import url("../assets/tagsinput/bootstrap-tagsinput.css");*/
+/*@import url("../assets/jquery-web-ui-popover/jquery.webui-popover.min.css");*/
+@import url("../assets/bootstrap-select/bootstrap-select.min.css");
+@import url("../assets/mediaelement/mediaelementplayer.min.css");
+/*@import url("../assets/revolution_slider/style.css");*/
+/*@import url("../assets/revolution_slider/rs-plugin/css/settings.css");*/
+/*@import url("../assets/bxslider/jquery.bxslider.css");*/
+/*@import url("cmp/select2.min.css");*/
+/*@import url("../assets/bootstrap-datepicker/css/datepicker.css");*/
+@import url("animate.css");
+@import url("base.css");
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,600,700&subset=latin,cyrillic-ext);*/
+/*@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300&subset=latin,cyrillic-ext);*/
+/*@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700,400italic&subset=latin,cyrillic-ext);*/
+/*@import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed);*/
+
+
+@font-face {
+    font-family: "Proxima";
+    src: url("../fonts/ProximaNova/Light/ProximaNovaLight.eot");
+    src: url("../fonts/ProximaNova/Light/ProximaNovaLightd41d.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNova/Light/ProximaNovaLight.woff") format("woff"),
+    url("../fonts/ProximaNova/Light/ProximaNovaLight.html") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Proxima";
+    src: url("../fonts/ProximaNova/ProximaNovaRegular.eot");
+    src: url("../fonts/ProximaNova/ProximaNovaRegulard41d.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNova/ProximaNovaRegular.woff") format("woff"),
+    url("../fonts/ProximaNova/ProximaNovaRegular.html") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Proxima";
+    src: url("../fonts/ProximaNova/ProximaNovaBold.eot");
+    src: url("../fonts/ProximaNova/ProximaNovaBoldd41d.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNova/ProximaNovaBold.woff") format("woff"),
+    url("../fonts/ProximaNova/ProximaNovaBold.html") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Proxima";
+    src: url("../fonts/ProximaNova/SemiBold1/ProximaNovaSemibold.eot");
+    src: url("../fonts/ProximaNova/SemiBold1/ProximaNovaSemiboldd41d.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNova/SemiBold1/ProximaNovaSemibold.woff") format("woff"),
+    url("../fonts/ProximaNova/SemiBold1/proximanova-semibold-webfont.html") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+/* font-family: "ProximaNovaBlack"; */
+@font-face {
+    font-family: "Proxima";
+    src: url("../fonts/ProximaNova/ProximaNovaBlack.eot");
+    src: url("../fonts/ProximaNova/ProximaNovaBlackd41d.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNova/ProximaNovaBlack.woff") format("woff"),
+    url("../fonts/ProximaNova/ProximaNovaBlack.html") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base  />
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Language" content="en"/>
+    <title>SPACELABS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="spacelabs" />
+    <meta name="keywords" content="spacelabs" />
+    <meta name="google" content="notranslate">
+    <meta property="og:image" content=".data/content/images/design/big_c3da3c5dd5ed134f52cab60cb3a5ad119003.jpg" />
+    <meta property="og:title" content="" />
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="index.html" />
+
+      <link type="text/css" href="template/std/css/allf422.css" rel="stylesheet" />
+      <link type="text/css" href="template/std/css/stylef422.css" rel="stylesheet" />
+      <link type="text/css" href="template/std/css/style-responsivef422.css" rel="stylesheet" />
+    <link rel="icon" href=".data/content/images/design/fevicon.png" type="image/x-icon">
+    <link rel="SHORTCUT ICON" href=".data/content/images/design/fevicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="0x0" href=".data/content/images/design/logo.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href=".data/content/images/design/144_logo.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href=".data/content/images/design/114_logo.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href=".data/content/images/design/72_logo.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href=".data/content/images/design/57_logo.png">
+    <link rel="image_src" href=".data/content/images/design/big_c3da3c5dd5ed134f52cab60cb3a5ad119003.jpg"/>
+
+      <link rel="stylesheet" href="/template/std/assets/reject/reject.css" media="all" />
+
+    <script src="template/std/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="template/std/assets/mediaelement/mediaelement-and-playerf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+      
+        <script>
+              var wh = {
+                  options : [],
+                  isDeveloper : 0,
+                  menuAnimation : 1,
+                  loadDelay : 0              };
+        </script>
+        <script>
+          var toPreload = [
+//              '//',
+//              '//',
+//              '//',
+          ];
+          var globalSounds = {
+              btnHover      : {sound : '.data/content/infofiles/669c31192d9319baeb228f9c00ba68f57463.mp3', volume: 0.2},
+              menuShow      : {sound : '.data/content/infofiles/669c31192d9319baeb228f9c00ba68f57463.mp3', volume: 0.2},
+              menuItemHover : {sound : '.data/content/infofiles/669c31192d9319baeb228f9c00ba68f57463.mp3', volume: 0.2},
+              logoHover     : {sound : '.data/content/infofiles/669c31192d9319baeb228f9c00ba68f57463.mp3', volume: 1},
+              preloader     : {sound : '.data/content/infofiles/669c31192d9319baeb228f9c00ba68f57463.mp3', volume: 0.5}
+          };
+      </script>
+
+      <style>
+          .body-main #content{background-image:url(.data/content/images/design/474d9acbd893a3cc8c2a11284da9a4083951.png);}
+          body.body-showreel #wrap .wrap-after{background-image:url(.data/content/infofiles/8bba0ff22ce2d0943d3916aa5b7037494777.jpg);}
+		  
+		  @font-face {
+              font-family: Montserrat-Regular;
+              src: url(template/std/fonts/Montserrat-Regular.ttf);
+            }
+      </style>
+    <style>
+        header {
+            position: relative;
+            background-color: black;
+            height: 75vh;
+            min-height: 25rem;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        header video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: 0;
+            -ms-transform: translateX(-50%) translateY(-50%);
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        header .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            opacity: 0.5;
+            z-index: 1;
+        }
+
+        @media (pointer: coarse) and (hover: none) {
+            header {
+                background: url('.data/mainvideo/cdbd266f86cd19d196104171b38bfafe1089.mp4') black no-repeat center center scroll;
+            }
+            header video {
+                display: none;
+            }
+        }
+
+        h1.display-3 {
+            letter-spacing: 30px;
+            font-weight: 100;
+            margin-top: 30% !important;
+            font-family: 'montserrat-light', sans-serif;
+            font-size: 84px !important;
+        }
+    </style>
+</head>
+  <body class="body-main unsigned body-no-mobile" data-spy="scroll">
+    <div id="wrap" class="" style="display: none;">
+        <div class="bg" data-ratio="3.35" style="display: none;">
+                    <div class="image-holder" id="pageImage" style="display:none;">
+                        <div class="before"></div>
+                        <div class="container">
+                            <div class="before"></div>
+                            <div class="image" style="background-image: url(template/std/img/spacer.png)"></div>
+                        </div>
+                    </div>
+                    <div class="video-holder container" id="pageVideo" style="display:none;">
+                        <div class="before"></div>
+                        <div class="inner" data-video-id=""></div>
+                        <div class="after-left"></div>
+                        <div class="after-left2"></div>
+                        <div class="after-right"></div>
+                        <div class="after-bottom-fader"></div>
+                        <div class="after-bottom"></div>
+                    </div>
+                <div class="overlay"></div>
+            </div>
+        <a id="brand" href="index.html">
+            <div id="aBrand">
+                <img class="static" alt="" src=".data/content/images/design/logo1.png">
+            </div>
+        </a>
+        <header class="header-frontend" id="header">
+            <div class="bg" style="background-image: url(.data/content/images/design/big_c3da3c5dd5ed134f52cab60cb3a5ad119003.jpg)">
+                <div class="overlay"></div>
+                <video title="Advertisement" webkit-playsinline="true" playsinline="true"
+                         style="background-color: rgb(0, 0, 0); position: absolute; width: 640px; height: 360px;"
+                         src=".data/mainvideo/cdbd266f86cd19d196104171b38bfafe1089.mp4"
+                         autoplay=""
+                         muted="muted"></video>
+                <div class="container h-100">
+                    <div class="d-flex h-100 text-center align-items-center">
+                        <div class="w-100 text-white">
+                            <h1 class="display-3"></h1>
+                            <p class="lead mb-0"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inner">
+                <div class="container">
+                    <div id="brandBig" style="background-image: url(.data/content/images/design/bb99a2297c51a3be2fc19dcbc2172cd01366.png)"></div>
+
+                    <div class="arrowDown-holder">
+                        <div class="arrowDown pseudo-a" href="#content"></div>
+                    </div>
+                </div>
+                <div class="cl"></div>
+            </div>
+            <div id="header-overlay" class="overlay"></div>
+        </header>
+        <div id="mainMenuScroller">
+            <ul class="items nav">
+                <li class="item pseudo-a active"><a href="#header"><span class="inner"></span></a></li>
+                <li class="item pseudo-a"><a href="#info-1"><span class="inner"></span></a></li>
+                <li class="item pseudo-a"><a href="#info-2"><span class="inner"></span></a></li>
+                <li class="item pseudo-a"><a href="#workshops"><span class="inner"></span></a></li>
+            </ul>
+        </div>
+        <div id="menu-holder">
+            <div class="overlay"></div>
+            <div id="menu-btn-toggle" class="jcb" data-callback="mainmenu.toggle"></div>
+            <aside id="menu">
+                <div class="angle-hover-close"></div>
+                <div class="bg"></div>
+                <div class="inner">
+                    <div id="search-btn-toggle" class="jcb" data-callback="mainmenu.search.toggle">
+                        <i class="icon icon-search"></i>
+                    </div>
+                    <div id="mainmenu">
+                        <ul class="level-1 first">
+                            <li class="item-event-production">
+                                <a class="ajax item" data-system-key="" data-callback="mainmenu.click" href="record-label.html">
+                                    <span>
+                                        <div class="image">
+                                            <div style="background-image:url(.data/services/mainmenu/53a4b3789dc5591f425ebab3f484e0012007.png)"></div><div class="hover" style="background-image:url(.data/services/mainmenu/hover/6df0cc97aedb40b1c941856ff65de7728547.png)"></div>
+                                        </div>
+                                        <span>Record Label</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="item-directing-events">
+                                <a class="ajax item" data-system-key="" data-callback="mainmenu.click" href="cultural-curation.html">
+                                    <span>
+                                        <div class="image">
+                                            <div style="background-image:url(.data/services/mainmenu/181af525c1b1b062fce0706f436b9a304848.png)"></div><div class="hover" style="background-image:url(.data/services/mainmenu/hover/a155a6c31675fc474137c86a72b448381514.png)"></div>
+                                        </div>
+                                        <span>Cultural Curation</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="item-tehprod">
+                                <a class="ajax item" data-system-key="" data-callback="mainmenu.click" href="audio-institute.html">
+                                    <span>
+                                        <div class="image">
+                                            <div style="background-image:url(.data/services/mainmenu/82cce94a2ad6b1f3a9e50c9dc432bfd02887.png)"></div><div class="hover" style="background-image:url(.data/services/mainmenu/hover/154b80b2e55f3e52f110b60057dd23334658.png)"></div>
+                                        </div>
+                                        <span>Audio Institute</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="item-workshops">
+                                <a class="ajax item" data-system-key="" data-callback="mainmenu.click" target="_blank" href="http://www.naada.co/">
+                                    <span>
+                                        <div class="image">
+                                            <div style="background-image:url(.data/services/mainmenu/a500b20505a2f10cb1932e697dda62544975.png)"></div><div class="hover" style="background-image:url(.data/services/mainmenu/hover/e8018d2d1e54cca6197f5924f7036ce54129.png)"></div>
+                                        </div>
+                                        <span>Naada</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="level-1 second">
+                            <li class="item-portfolio">
+                                <a class="ajax item" data-system-key="" data-callback="mainmenu.click" href="sound-installation-acoustics.html">
+                                    <span>
+                                        <div class="image">
+                                             <div style="background-image:url(.data/services/mainmenu/3b652412835c37edeaae47659a00350a8346.png)"></div><div class="hover" style="background-image:url(.data/services/mainmenu/hover/989b325ddaab5b43f76f5c518d0378a56290.png)"></div>
+                                        </div>
+                                        <span>Sound Installations & Acoustics</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="item-about">
+                                <a class="ajax item" data-system-key="" data-callback="mainmenu.click" href="#">
+                                    <span>
+                                        <div class="image">
+                                             <div style="background-image:url(.data/services/mainmenu/3b652412835c37edeaae47659a00350a8346.png)"></div><div class="hover" style="background-image:url(.data/services/mainmenu/hover/989b325ddaab5b43f76f5c518d0378a56290.png)"></div>
+                                        </div>
+                                        <span>Artist Management</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="item-news">
+                                <a class="ajax item" data-system-key="" data-callback="mainmenu.click" href="sound-therapy.html">
+                                    <span>
+                                        <div class="image">
+                                             <div style="background-image:url(.data/services/mainmenu/3b652412835c37edeaae47659a00350a8346.png)"></div><div class="hover" style="background-image:url(.data/services/mainmenu/hover/989b325ddaab5b43f76f5c518d0378a56290.png)"></div>
+                                        </div>
+                                        <span>Sound Therapy</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="item-contacts">
+                                <a class="ajax item" data-system-key="" data-callback="mainmenu.click" href="contacts.html">
+                                    <span>
+                                        <div class="image">
+                                            <div style="background-image:url(.data/services/mainmenu/3b652412835c37edeaae47659a00350a8346.png)"></div><div class="hover" style="background-image:url(.data/services/mainmenu/hover/989b325ddaab5b43f76f5c518d0378a56290.png)"></div>
+                                        </div>
+                                        <span>Contact</span></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!--<div id="search">-->
+        <!--    <div class="overlay jcb" data-callback="mainmenu.search.toggle"></div>-->
+        <!--    <div class="inner">-->
+        <!--        <form action="" method="get" data-callback2="mainmenu.search.submit" data-hash="1" data-show-success="false">-->
+        <!--            <input class="trans" type="text" name="q" autocomplete="off">-->
+        <!--        </form>-->
+        <!--    </div>-->
+        <!--</div>-->
+
+        <a href="http://spacelabstudios.com/" class="webstudio" target="_blank" id="webstudio">
+            <div class="text">Designed by Spacelabs</div>
+            <div class="image"></div>
+        </a>
+        <div id="mid">
+            <div class="inner">
+            <div class="-container">
+            <div class="-row">
+            <div class="" id="content">
+            <div id="infosection" class="i-glavnaya" style=""></div>
+                <section id="index">
+                    <div class="container">
+                            <div class="item-infosection item-1 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1s" id="info-1">
+                                                <div class="title">
+                                                    <h2>About SPACELABS</h2>
+                                                </div>
+                                            <div class="text">
+                                    <p>Spacelabs is where your musical journey begins.</p>
+                                    <p>Just as our name connotes, our studio is a symphonic powerhouse that fosters boundless experimentation of sounds that can resonate with your audience.
+                                        Backed by more than 20 years of experience in the musical realm, our solution providers will help you comprehend the essence of exploring, creating and combining melodies with concepts conceivable in the human mind. As a creator or listener,  our 24-hour, state of the art music studio, equipped with complex instruments, will give your music a unique and emotional touch. Our vision and mission is to embody your entity or brand by transforming your ideas into musical revelations.
+                                    </p>
+                                    <div class="a parallax ex fancybox mobile_item_one desktop_hide" data-wow-delay="0.1s" data-wow-duration="1s" rel="prettyPhoto[5e16d0bd6f79f]" href=".data/content/subgallery/1961e0edd637e894a9293eed7f4de7287846.jpg" title="" style="background-image:url(.data/content/subgallery/1961e0edd637e894a9293eed7f4de7287846.jpg)">
+                                    </div>
+                                </div>
+                                <!--<div class="bottom">
+                                    <a class="transition btn-more button" href="event-production.html">MORE DETAILS</a>
+                                </div>-->
+                            </div>
+                            <div class="item-infosection item-2 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1s" id="info-2">
+                                <div class="title">
+                                    <h2>Music Production</h2>
+                                </div>
+                                <div class="text">
+                                    <p>We create and embody the most daring ideas.</p>
+                                    <p>Multifaceted experience in various areas of the marketing industry, modern technical innovations and cooperation with the best professionals in the market allow us to create unique content and truly vivid events.</p>
+                                </div>
+                                <div class="desktop_hide mobile_item_two">
+                                    <div class="a animate-to-right ex fancybox mobile_item_half desktop_hide" data-wow-delay="0.1s" data-wow-duration="1s" rel="prettyPhoto[5e16d0bd6f79f]" href=".data/content/subgallery/im-vv.jpg" title="" style="background-image:url(.data/content/subgallery/927da12ffcccd00f77debffee9a8c6db1069.jpg)">
+                                    </div>
+                                    <div class="a parallax ex fancybox " data-wow-delay="0.1s" data-wow-duration="1s" rel="prettyPhoto[5e16d0bd6f79f]" href=".data/content/subgallery/6d9d1485ac788a9a95b8803a0949c16d7566.jpg" title="" style="background-image:url(.data/content/subgallery/6d9d1485ac788a9a95b8803a0949c16d7566.jpg)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-infosection item-3 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1s" id="info-3">
+                                <div class="title">
+                                    <h2>Event Production</h2>
+                                </div>
+                                <div class="text">
+                                    <p class="p1"><span class="s1">Integrated development of technical solutions and visual design for events. Perfectly matched mix of real fans of their craft. We managed to prove that there is nothing impossible in the embodiment of the most daring and crazy ideas</span></p>
+                                </div>
+                                <div class="a parallax ex fancybox mobile_item_one desktop_hide" data-wow-delay="0.1s" data-wow-duration="1s" rel="prettyPhoto[5e16d0bd6f79f]" href=".data/content/subgallery/8414df02b645dcc79973df54f346dd0e3167.jpg" title="" style="background-image:url(.data/content/subgallery/8414df02b645dcc79973df54f346dd0e3167.jpg);background-size: contain">
+                                </div>
+                                <!--<div class="bottom">
+                                    <a class="transition btn-more button" href="tehprod.html">MORE DETAILS/a>
+                                </div>-->
+                            </div>
+                        <div class="subgallery-index">
+                            <div class="item mobile_hide item-1 wow fadeInUp">
+                                <div class="a parallax ex fancybox " data-wow-delay="0.1s" data-wow-duration="1s" rel="prettyPhoto[5e16d0bd6f79f]" href=".data/content/subgallery/1961e0edd637e894a9293eed7f4de7287846.jpg" title="" style="background-image:url(.data/content/subgallery/1961e0edd637e894a9293eed7f4de7287846.jpg)">
+                                </div>
+                            </div>
+                            <div class="item mobile_hide item-2 wow fadeInUp">
+                                <div class="a animate-to-right ex fancybox " data-wow-delay="0.1s" data-wow-duration="1s" rel="prettyPhoto[5e16d0bd6f79f]" href=".data/content/subgallery/im-vv.jpg" title="" style="background-image:url(.data/content/subgallery/927da12ffcccd00f77debffee9a8c6db1069.jpg)">
+                                </div>
+                            </div>
+                            <div class="item mobile_hide item-3 wow fadeInUp">
+                                <div class="a parallax ex fancybox " data-wow-delay="0.1s" data-wow-duration="1s" rel="prettyPhoto[5e16d0bd6f79f]" href=".data/content/subgallery/6d9d1485ac788a9a95b8803a0949c16d7566.jpg" title="" style="background-image:url(.data/content/subgallery/6d9d1485ac788a9a95b8803a0949c16d7566.jpg)">
+                                </div>
+                            </div>
+                            <div class="item mobile_hide item-4 wow fadeInUp">
+                                <div class="a parallax ex fancybox " data-wow-delay="0.1s" data-wow-duration="1s" rel="prettyPhoto[5e16d0bd6f79f]" href=".data/content/subgallery/8a32fe0cb4170cfbc36265a03c839ed65330.jpg" title="" style="background-image:url(.data/content/subgallery/8a32fe0cb4170cfbc36265a03c839ed65330.jpg)">
+                                </div>
+                            </div>
+                            <div class="item mobile_hide item-5 wow fadeInUp">
+                                <div class="a parallax ex fancybox " data-wow-delay="0.1s" data-wow-duration="1s" rel="prettyPhoto[5e16d0bd6f79f]" href=".data/content/subgallery/8414df02b645dcc79973df54f346dd0e3167.jpg" title="" style="background-image:url(.data/content/subgallery/8414df02b645dcc79973df54f346dd0e3167.jpg)">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cl"></div>
+                        <div class="index-bottom">
+                            <div class="workshops wow fadeInUp" id="workshops" data-wow-delay="0.1s" data-wow-duration="1s">
+                                <div class="title">SPACELABS</div>
+                                <div class="inner">
+                                    <div class="current-bottom">
+                                        <div class="button-holder text-center">
+                                            <a class="transition button big ajax-popup" href="http://spacelabstudios.in/contact-us.php" target="_blank">Contact US</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logo-black-holder">
+                                <div class="logo-black" style="background-image: url(.data/content/images/design/f78a786f9b007dae00542f8eaa54e55e2442.gif)"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="wrap-after">
+            <div class="item-showreel">
+                <div class="image pull-right"></div>
+                <div class="text">Showreel</div>
+            </div>
+        </div>
+        <div class="push"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="copyright">
+                <div class="new-copyright">
+                    © SPACELABS \ SPACELABS 2020
+                    <a href="http://spacelabstudios.com/" class="webstudio-copyright">
+                    <div class="img"></div>
+                    <div class="text">Designed by Spacelabs</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    <ul id="social">
+        <div class="item">
+        <a target="_blank" href="https://www.facebook.com/spacelabsmusic/" title="Facebook">
+                        <div class="text">Facebook</div>
+                </a>
+    </div>
+    <div class="item">
+        <a target="_blank" href="https://www.instagram.com/spacelabs_/" title="Pinterest">
+                        <div class="text">Instagram</div>
+                </a>
+    </div>
+    <div class="item">
+        <a target="_blank" href="https://soundcloud.com/spacelabsmusic" title="Instagram">
+                        <div class="text">Soundcloud</div>
+                </a>
+    </div>
+
+    </ul>
+        <div id="soundSwitcher" class="active">
+            <audio id="globalAudioPlayer" src=".data/content/infofiles/669c31192d9319baeb228f9c00ba68f57463.mp3"></audio>
+        </div>
+        <a id="langSwitcher" href="http://spacelabstudios.com/">Hello!</a>
+    </footer>
+    <script type="text/javascript" src="/template/std/assets/reject/reject.min.js"></script>
+<script src="template/std/assets/jquery-ui/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/bootstrap.minf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/modernizr.custom.28468f422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/jquery.easingf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/jquery.form.minf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/jquery.mask.minf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/assets/fancybox/jquery.fancybox.packf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/assets/bootstrap-select/bootstrap-selectf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/history.adapter.jqueryf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/jquery.nicescrollf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/sliderf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/jquery.ocuploadf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/wowf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/ajax.scrollf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/whappf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/functionsf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/callbacksf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/jquery.parallax-1.1.3f422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/jquery.bootstrap-growlf422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+<script src="template/std/js/basef422.js?v=2.0.55" type="text/javascript" charset="utf-8"></script>
+    <div id="dialog-box"></div>
+    <div id="media-invis" style="display: none;">
+        <audio id="tempAudioPlayer" src=".data/content/infofiles/669c31192d9319baeb228f9c00ba68f57463.mp3"></audio>
+    </div>
+    <div id="ajax-loader">
+        <div class="overlay"></div>
+        <div class="inner">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/5eb033a281d25c0e5848accc/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+  </body>
+</html>

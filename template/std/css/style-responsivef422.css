@@ -1,0 +1,362 @@
+.desktop_hide{
+    display: none;
+}
+@media (max-width:1200px){
+    #index .index-bottom .workshops > .title {font-size: 136px;}
+}
+
+.body-main header,
+#mainvideo, #mainvideo .items > .item > .inner,
+#mainvideo .video-player{height: 640px !important;}
+#mainvideo .video-player{width: 1140px !important;}
+#mainvideo .items > .item > .inner{margin-left: -320px;}
+#mainvideo .items > .item:nth-child(1) > .inner{margin-left: -225px;}
+#mainvideo .items > .item:nth-child(3) > .inner{margin-left: -375px;}
+
+@media(min-width:1024px){
+
+}
+
+@media(min-width:1280px){
+    #mainvideo .items > .item{width:710px;}
+    .body-main header, #mainvideo,
+    #mainvideo .items > .item > .inner,
+    #mainvideo .video-player{height: 710px !important;}
+    #mainvideo .video-player{width: 1280px !important;}
+    #mainvideo .items > .item > .inner{margin-left: -285px;}
+    #mainvideo .items > .item:nth-child(1) > .inner{margin-left: -250px;}
+    #mainvideo .items > .item:nth-child(3) > .inner{margin-left: -280px;}
+}
+
+@media(min-width:1600px){
+    #mainvideo .items > .item{width:880px;}
+    .body-main header, #mainvideo,
+    #mainvideo .items > .item > .inner,
+    #mainvideo .video-player{height: 880px !important;}
+    #mainvideo .items > .item > .inner{width:1560px;}
+    #mainvideo .video-player{width: 1560px !important;}
+    #mainvideo .items > .item > .inner{margin-left: -340px;}
+    #mainvideo .items > .item:nth-child(1) > .inner{margin-left: -274px;}
+    #mainvideo .items > .item:nth-child(3) > .inner{margin-left: -350px;}
+}
+
+@media(min-width:2400px){
+    #mainvideo .items > .item{width: 1280px;}
+    .body-main header, #mainvideo,
+    #mainvideo .items > .item > .inner,
+    #mainvideo .video-player{height: 1280px !important;}
+    #mainvideo .items > .item > .inner{width: 1940px;}
+    #mainvideo .video-player{width: 2275px !important;}
+    #mainvideo .items > .item > .inner{margin-left: -510px;}
+    #mainvideo .items > .item:nth-child(1) > .inner{margin-left: -374px;}
+    #mainvideo .items > .item:nth-child(3) > .inner{margin-left: -510px;}
+}
+
+
+@media(min-width:991px) and (max-width:1400px){
+
+}
+
+@media(min-width:991px) and (max-width:91800px){
+
+}
+
+@media (min-width:1201px){
+    .container {
+        width: 1024px;
+    }
+}
+
+@media (min-width:1600px){
+    .sslider .slider > .items li{width:1160px;height: 653px;}
+}
+
+@media (min-width:1420px){
+    /*     .body-main header, #mainvideo, #mainvideo .items > .item > .inner{height: 920px !important;} */
+
+}
+
+
+@media (min-width:744px) and (max-width:991px){
+
+}
+
+@media(min-height:820px){
+
+}
+
+@media(max-width:767px){
+
+}
+
+@media(width:1000px){
+    #index .subgallery-index .item.item-1 {
+        left: 745px;
+        top: 218px;
+        width: 200px;
+        height: 195px;
+    }
+
+    #index .subgallery-index .item.item-2 {
+        left: 88px;
+        top: 533px;
+        width: 316px;
+        height: 418px;
+    }
+
+    #index .subgallery-index .item.item-3 {
+        left: 775px;
+        top: 846px;
+        width: 149px;
+        height: 140px;
+    }
+
+    #index .item-infosection.item-2 {
+        position: absolute;
+        top: 1238px;
+        left: 391px;
+        width: 570px;
+    }
+
+    #index .subgallery-index .item.item-4 {
+        left: 21px;
+        top: 1281px;
+        width: 264px;
+        height: 200px;
+    }
+
+    #index .item-infosection.item-3 {
+        position: absolute;
+        top: 1662px;
+        left: 0;
+        width: 594px;
+    }
+
+    #index .subgallery-index .item.item-5 {
+        left: 624px;
+        top: 1662px;
+    }
+
+    .mobile_top_custom_margin{
+        margin-top: 800px !important;
+    }
+}
+
+
+@media screen and (max-width: 700px) /* Mobile */ {
+
+    .container{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /*LOGO*/
+    #aBrand > img{
+        width: 105px;
+    }
+    /*BANNER*/
+    #brandBig{
+        width: 100%;
+        height: 100%;
+        margin: 25px auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: none;
+        background-size: 45%;
+    }
+
+    #search-btn-toggle{
+        display: none;
+    }
+
+    #menu{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    #menu > .bg{
+        background: #15181A !important;
+    }
+
+    #webstudio{
+        display: none;
+    }
+
+    #mid > .inner{
+        padding: 0 !important;
+        margin-top: 5px !important;
+    }
+
+    .text > p{
+        text-align: justify;
+    }
+
+    .item-infosection{
+        position: unset !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+    }
+
+    .subgallery-index .item{
+        left: 0 !important;
+        top:  0 !important;
+        width: 250px !important;
+        height: 200px !important;
+    }
+
+    #mainmenu{
+        width: 100%;
+        display: flex;
+        margin-left: 0 !important;
+        z-index: 11111;
+    }
+
+    #mainmenu > .level-1{
+        padding-left: 5px !important;
+        margin-top: 20px;
+    }
+
+    .mobile_hide{
+        display: none;
+    }
+
+    .desktop_hide{
+        display: block;
+    }
+
+    .mobile_item_one{
+        width: 100%;
+        height: 250px;
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+
+    .mobile_item_two{
+        margin-top: 5px;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .mobile_item_two div:first-child{
+        flex: 1;
+        margin-right: 15px;
+        height: 250px;
+    }
+
+    .mobile_item_two div:last-child{
+        flex: 0.5;
+        margin-left: 5px;
+        height: 150px;
+        background-size: contain;
+    }
+
+    .index-bottom{
+        position: unset !important;
+    }
+
+    .index-bottom > div .title{
+        display: none;
+    }
+
+    .body-main #content{
+        min-height: unset !important;
+    }
+
+    #menu > .angle-hover-close {
+        position: absolute;
+        width: 4348px;
+        background: none;
+        height: 1016px;
+        top: 263px;
+        left: -1882px;
+        -moz-transform: rotate(35deg);
+        -ms-transform: rotate(35deg);
+        -o-transform: rotate(35deg);
+        -webkit-transform: rotate(35deg);
+        transform: rotate(0deg);
+        z-index: 2;
+    }
+
+    /*RECORD LABEL PAGE*/
+
+    #pageImage{
+        display: block !important;
+    }
+
+    #pageImage .image{
+        height: 400px !important;
+        background-size: cover !important;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100% !important;
+        position: absolute;
+        right: 0 !important;
+        top: 0 !important;
+    }
+
+    .i-text p{
+        text-align: left;
+    }
+
+    #infosection > .current > .menu-holder > .title > h1 {
+        font-size: 38px !important;
+    }
+
+    #infosection > .current > .menu-holder > .title {
+        width: 100% !important;
+    }
+
+    #infosectionChildrenMini{
+        margin-top: 50px !important;
+    }
+
+    #infosectionChildrenMini > div:first-child{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #infosectionChildrenMini > .items .item {
+        height: auto;
+        flex: 1 0 50%;
+    }
+
+    #infosection > .current > .menu-holder > .title > .container{
+        padding: 0 !important;
+    }
+
+    #infosection > .current > .menu-holder > .title > .container > .col-md-12{
+        padding: 0 !important;
+    }
+
+    #infosection{
+        width: 100%;
+    }
+
+    #infosection > .col-md-8 > img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+    #wrap{max-width:2880px;}
+
+}
+
+
+
+#mainvideo.alone .video-player{/* height: auto !important; */width: 120vw !important;}
+.body-main header, #mainvideo, #mainvideo .items > .item > .inner, #mainvideo .video-player{height: calc(100vw * 0.5) !important;}
